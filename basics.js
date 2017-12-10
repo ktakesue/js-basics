@@ -10,7 +10,7 @@ var person = {
 };
 /* Create a variable called `canDrive`,
  * if it should be true if your person object is at least 16 years old
- */
+ */	
 if (person.age >= 16){
 		var canDrive = true;
 	}
@@ -25,8 +25,7 @@ function greet (name){
 /* Create an array called `dataTypes` with atleast 1 of every data type;
  * (there are 6 different data types);
  */
-var dataTypes = ["string", "number", "boolean", "undefined", "null", "object"];
-
+var dataTypes =["cat", 2, true, undefined, null, {object: "sharkbait"}];
 /* Create a `dog` object
  * it should have a `bark` function that makes your dog bark!
  * It should also have a name attribute with the value of 'Spot'
